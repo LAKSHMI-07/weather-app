@@ -1,0 +1,88 @@
+body{
+    background-image: url('https://source.unsplash.com/1900x900/?sky');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card-container {
+    background-color: #0000009e;
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+input.form-control.search-text {
+    background-color: #0000007d;
+    margin: 5px;
+    border: none;
+    border-radius: 25px !important;
+    padding: 7px 15px;
+}
+
+button#basic-addon2 {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+}
+
+.form-control::placeholder {
+    color: #ffffffbd; /* Change this to the desired color */
+  }
+
+
+
+i.fas.fa-search {
+    background-color: #0000007d;
+    padding: 9px;
+    border-radius: 50%;
+    color: #ffffffbd;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: left;
+}
+
+p.card-text.temp {
+    text-align: left;
+    font-size: 42px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+p.desc {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.weather-cont{
+    text-align: left;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.dayy{
+    font-size: 28px;
+    font-weight: 600;
+}
